@@ -1,0 +1,50 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
+    <meta name="format-detection" content="telephone=no" />
+    <title>注册</title>
+    <link href="packed/css/mobile.css" rel="stylesheet" type="text/css" />
+	<script src="packed/js/beacon.js?jquery&easing&slider&packed" type="text/javascript"></script>
+</head>
+<body>
+                <div class="wrap" style="margin-top:20px">
+                    <div class="form-box">
+                        <div class="row">
+                            <input id="tb_zcmphone" type="tel" placeholder="请输入手机号" style="width: 55%; border-right: 0;" />
+                            <a id="zcgetyzm" href="javascript:void(0);" class="btn" style="width: 44%;">获取验证码</a></div>
+                        <div class="row">
+                            <input id="tb_zcyzm"  placeholder="请输入您收到的短信验证码" /></div>
+                        <div class="row">
+                            <input id="password1" type="password" placeholder="请设置密码" /></div>
+                        <div class="row">
+                            <input id="password2" type="password" placeholder="请再次输入密码" /></div>
+                        <div class="row">
+                            <input id="email" type="email" placeholder="请输入您常用邮箱地址" /></div>
+                        <div class="row">
+                            <input type="checkbox" id="cb_protocol" /><label for="agree">我已阅读并同意<a href="Register_Protocol.html" class="txt">《乐活用户协议》</a></label></div>
+                        <div class="row">
+                            <input id="btn_register" type="button" style="cursor:pointer;-webkit-appearance:none;background-color:#ef5d06;border:0;color:#fff;text-align:center;
+	                                width:100%;height:40px;font-size:18px;border-radius:10px;font-weight:bold;" value="注册"/>
+                         </div>
+                    </div>
+                    <!--/form-box-->
+                </div>
+            <!--foot start-->
+				<div id="footer-bottom">
+					<div class="footer-menu">
+						<div class="left" id="foot_login_before">
+							<a style="cursor: pointer;" onclick="footToLogin();">登录</a> <span>|</span> <a style="cursor: pointer;" onclick="footToRegister();">注册</a>
+						</div>
+						<div class="right">
+							<a style="cursor: pointer;" href="javascript:scroll(0,0);">回到顶部</a>
+						</div>
+					</div>
+					<div class="footer-mode">
+						<a style="cursor: pointer;" class="current" href="javascript:void(0);">触屏版</a> 
+						<a style="cursor: pointer;" href="javascript:void(0);">电脑版</a>
+					</div>
+				</div>
+			<!--foot end-->
+</body>
+</html>

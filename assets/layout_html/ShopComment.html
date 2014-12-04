@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
+    <meta name="format-detection" content="telephone=no" />
+    <title>商铺评价</title>
+    <link rel="stylesheet" href="packed/css/mobile.css" />
+	<script src="packed/js/beacon.js?jquery&easing&slider&packed" type="text/javascript"></script>
+	<script type="text/javascript">
+		function gotohome(){
+			//alert("评论成功！恭喜您获得5个积分。");
+			window.shopcomment.gotoHome();
+		}
+	</script>
+</head>
+
+<body>
+
+<div class="wrap">
+
+	<div class="order-comments">
+    	<dl>
+        	<dt><img src="temp/huanjihuang.jpg"/></dt>
+            <dd>
+            	综合评分
+                <div class="comment-star">
+					<script type="text/javascript">  
+                    $(document).ready(function(){  
+                        init_star(5,3,'star-1','star-val-1');
+                    });  
+                    </script> 
+                    <label id="star-1"></label>
+                    <input type="hidden" id="star-val-1"> 
+                </div>
+            </dd>
+        </dl>
+        <div class="textarea">
+        	<textarea placeholder="嗨，说两句吧。"></textarea>
+        </div>
+    	<dl>
+        	<dt>&nbsp;</dt>
+            <dd>
+            	服务态度
+                <div class="comment-star">
+					<script type="text/javascript">  
+                    $(document).ready(function(){  
+                        init_star(5,3,'star-2','star-val-2');
+                    });  
+                    </script> 
+                    <label id="star-2"></label>
+                    <input type="hidden" id="star-val-2"> 
+                </div>
+            </dd>
+        </dl>
+    	<dl>
+        	<dt>&nbsp;</dt>
+            <dd>
+            	排队环境
+                <div class="comment-star">
+					<script type="text/javascript">  
+                    $(document).ready(function(){  
+                        init_star(5,3,'star-3','star-val-3');
+                    });  
+                    </script> 
+                    <label id="star-3"></label>
+                    <input type="hidden" id="star-val-3"> 
+                </div>
+            </dd>
+        </dl>
+        <div class="button">
+        	<button type="submit" class="btn-global" onclick="gotohome();">提交</button>
+        </div>
+    </div><!--/order-comments-->
+        
+</div><!--/wrap-->
+
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">乐活</string>
+    <string name="home">首页</string>
+    <string name="myfile">我的</string>
+    <string name="about">关于</string>
+    <string name="title_activity_shoplist__hospital">Shoplist_HospitalActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_rtcomment__hospital">RTComment_HospitalActivity</string>
+    <string name="title_activity_shoplist_cinema">Shoplist_cinemaActivity</string>
+    <string name="title_activity_rtcomment_cinema">RTComment_cinemaActivity</string>
+    <string name="title_activity_queue__hospital">Queue_HospitalActivity</string>
+    <string name="title_activity_queue_cinema">Queue_cinemaActivity</string>
+    <string name="title_activity_my_queue__hospital">MyQueue_HospitalActivity</string>
+
+</resources>

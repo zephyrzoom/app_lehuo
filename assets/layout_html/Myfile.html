@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
+    <meta name="format-detection" content="telephone=no" />
+    <title>我的乐活</title>
+    <link rel="stylesheet" href="packed/css/mobile.css" />
+	<script src="packed/js/beacon.js?jquery&easing&slider&packed" type="text/javascript"></script>
+	<script type="text/javascript">
+		function gotoMyqueue(){
+			window.myfile.gotoMyQueue();
+		}
+		function gotoOrderlist(){
+			window.myfile.gotoOrderlist();
+		}
+		function gotoChangePWD(){
+			window.myfile.gotoChangePWD();
+		}
+	</script>
+</head>
+
+<body>
+
+<div class="wrap">
+	
+    <div class="my-header">
+    	<div class="photo"><img src="temp/026.jpg"/></div>
+        <div class="name">
+        	Mcat jone<br/>普通会员
+        </div>
+        <div class="card"><img src="temp/025.jpg"/></div>
+        <div class="count">
+        	<div class="item">
+            	优惠券
+                <span>10</span>
+            </div>
+        	<div class="item">
+            	积分
+                <span>200</span>
+            </div>
+        </div>
+    </div>
+    
+    <ul class="list-menu my-list-menu">
+    	<li>
+        	<a onclick="gotoMyqueue();">
+            	我的预约
+            </a>
+        </li>
+    	<li>
+        	<a onclick="gotoOrderlist();">
+            	我的订单
+            </a>
+        </li>
+    	<li>
+        	<a onclick="gotoChangePWD();">
+            	修改登录密码
+            </a>
+        </li>
+    </ul><!--/list-menu-->
+        
+</div><!--/wrap-->
+
+
+</body>
+</html>

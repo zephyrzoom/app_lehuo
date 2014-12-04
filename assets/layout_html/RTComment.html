@@ -1,0 +1,175 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
+    <meta name="format-detection" content="telephone=no" />
+    <title>实时评论</title>
+    <link rel="stylesheet" href="packed/css/mobile.css" />
+	<script src="packed/js/beacon.js?jquery&easing&slider&packed" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#btn_yuyue").click(function(){
+				window.rtcomment.gotoQueue();
+			});
+		});
+	</script>
+	<style type="text/css">
+		.top_comment{
+			border-bottom: 1px solid #e5e5e5;
+			color: #888;
+			font-size: 14px;
+			height: 45px;
+			line-height: 45px;
+			padding: 0 15px;
+			position: relative;
+		}
+		.top_comment .btns{
+			position:absolute;
+			right:15px;
+		}
+		.top_comment .btns .btn{
+		    background-color: #ef5d07;
+			border-radius: 5px;
+			color: #fff;
+			padding: 5px 10px;
+		}
+	</style>
+</head>
+
+<body>
+<div class="wrap">
+        	<div class="top_comment">
+            	<h2 style="position:absolute;right:45%;">粗粮王</h2>
+                <div class="right">
+                    <div class="btns" id="btn_yuyue">
+                        <a class="btn" style="cursor:pointer;">预约</a>
+                    </div>
+                </div>
+            </div>
+			<div>
+				<marquee style="width: 100%; height: 50px;text-align:center;border-bottom: 1px solid #e5e5e5;" scrollamount="1" direction="up" scrolldelay="10" >
+					<p ><font color="blue">【精华】</font><font color="#ff6600" size="4" >每天排队人好多啊，请谨慎选择！</font ></p ><br/><br/>
+					<p ><font color="blue">【精华】</font><font color="#ff4500" size="4" >味道相当不错，东西也很多哦！</font ></p ><br/><br/>
+					<p ><font color="blue">【精华】</font><font color="#ff3300" size="4" >尽量提前订座位吧，人太多，用了乐活还好点</font ></p >
+				</marquee >
+			</div>
+			<div style="height:60%;z-index:9999;">
+				<ul class="order-list">
+					<li>
+						<ul class="commodity">
+							<li style="padding:5px;">
+								<div class="info">
+									<div class="inner" style="margin-left:0px;">
+										<div class="field" style="height:20px;"><span class="red" style="float:left;margin-left:10px;">匿名</span><span class="red" style="float:right;margin-right:10px;">20:46:58</span></div>
+										<div>
+											<h3>人太多了，不过店家服务不错哦</h3>
+										</div>
+										<div class="btns"  style="margin-top:8px;position:;float:right;">
+											<a href="javascript:void(0);" class="btn">踩</a>
+										</div>
+										<div class="btns" style="margin-top:8px;position:;float:right;">
+											<a href="javascript:void(0);" class="btn">赞</a>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul class="commodity">
+							<li style="padding:5px;">
+								<div class="info">
+									<div class="inner" style="margin-left:0px;">
+										<div class="field" style="height:20px;"><span class="red" style="float:left;margin-left:10px;">jacky</span><span class="red" style="float:right;margin-right:10px;">20:32:58</span></div>
+										<div>
+											<h3>人太多了，建议今天选择其他的地方吃饭吧</h3>
+										</div>
+										<div class="btns"  style="margin-top:8px;position:;float:right;">
+											<a href="javascript:void(0);" class="btn">踩</a>
+										</div>
+										<div class="btns" style="margin-top:8px;position:;float:right;">
+											<a href="javascript:void(0);" class="btn">赞</a>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul class="commodity">
+							<li style="padding:5px;">
+								<div class="info">
+									<div class="inner" style="margin-left:0px;">
+										<div class="field" style="height:20px;"><span class="red" style="float:left;margin-left:10px;">langtian</span><span class="red" style="float:right;margin-right:10px;">20:11:10</span></div>
+										<div>
+											<h3>服务员MM很漂亮啊。</h3>
+										</div>
+										<div class="btns"  style="margin-top:8px;position:;float:right;">
+											<a href="javascript:void(0);" class="btn">踩</a>
+										</div>
+										<div class="btns" style="margin-top:8px;position:;float:right;">
+											<a href="javascript:void(0);" class="btn">赞</a>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul class="commodity">
+							<li style="padding:5px;">
+								<div class="info">
+									<div class="inner" style="margin-left:0px;">
+										<div class="field" style="height:20px;"><span class="red" style="float:left;margin-left:10px;">zheng</span><span class="red" style="float:right;margin-right:10px;">19:37:10</span></div>
+										<div>
+											<h3>这家味道很好，欢迎大家来。</h3>
+										</div>
+										<div class="btns"  style="margin-top:8px;position:;float:right;">
+											<a href="javascript:void(0);" class="btn">踩</a>
+										</div>
+										<div class="btns" style="margin-top:8px;position:;float:right;">
+											<a href="javascript:void(0);" class="btn">赞</a>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul class="commodity">
+							<li style="padding:5px;">
+								<div class="info">
+									<div class="inner" style="margin-left:0px;">
+										<div class="field" style="height:20px;"><span class="red" style="float:left;margin-left:10px;">langtian</span><span class="red" style="float:right;margin-right:10px;">18:31:10</span></div>
+										<div>
+											<h3>排队人太多了，幸好用了乐活app。</h3>
+										</div>
+										<div class="btns"  style="margin-top:8px;position:;float:right;">
+											<a href="javascript:void(0);" class="btn">踩</a>
+										</div>
+										<div class="btns" style="margin-top:8px;position:;float:right;">
+											<a href="javascript:void(0);" class="btn">赞</a>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul><!--/order-list-->
+			</div>
+</div><!--/wrap-->
+<!--foot start-->
+<div id="footer-bottom">
+	<div class="order-list">
+		<div class="top" style="padding:0;border-top: 1px solid #e5e5e5;">
+			<input type="text" style="width:80%;float:left;height:100%;border:0;font-size:25px;" placeholder="说说您此刻的想法。。。"/><//>
+			<div style="width:20%;float:right;height:100%;">
+				<div class="btns">
+					<div style="background-color:#ef5d07;color:#fff;cursor:pointer;text-align:center;font-size:18px;">发布</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--foot end-->
+</body>

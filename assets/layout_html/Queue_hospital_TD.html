@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no"/>
+    <title>排队</title>
+    <link rel="stylesheet" href="packed/css/mobile.css"/>
+    <script src="packed/js/beacon.js?jquery&easing&slider&packed" type="text/javascript"></script>
+	<script type="text/javascript">
+			window.onload=load;
+		function load() {
+			window.queue.loadDb();
+		}
+		function showDb(t2, t4, t6, t8, t10) {
+			document.getElementById("t2").innerHTML = t2;
+			document.getElementById("t4").innerHTML = t4;
+			document.getElementById("t6").innerHTML = t6;
+			document.getElementById("t8").innerHTML = t8;
+			document.getElementById("t10").innerHTML = t10;
+			
+		}
+		
+		
+		
+			function goMyqueue(table){
+				
+				window.queue.alert(table);
+			}
+	</script>
+</head>
+
+<body>
+
+<div class="wrap wrap-footer">
+
+    <ul class="order-list">
+        <li>
+            <ul class="commodity">
+                <li>
+                    <div class="info">
+                        <div class="inner">
+                            <h3>唐都医院</h3>
+
+                        </div>
+                    </div>
+                    <div class="photo"><img src="temp/hospital.png" style="width:70px"/></div>
+                </li>
+            </ul>
+            <div class="top top-other" style="border-top:none;">
+                儿科<br/>
+                排队人数：<span class="red" id="t2">60</span>
+
+                <div class="right">
+                    <div class="btns">
+                        <a href="javascript:void(0);" class="btn" onclick="goMyqueue(2);">去排队</a>
+                    </div>
+                </div>
+            </div>
+            <div class="top top-other" style="border-top:none;">
+                皮肤科<br/>
+                排队人数：<span class="red" id="t4">23</span>
+
+                <div class="right">
+                    <div class="btns">
+                        <a href="javascript:void(0);" class="btn" onclick="goMyqueue(4);">去排队</a>
+                    </div>
+                </div>
+            </div>
+            <div class="top top-other" style="border-top:none;">
+                神经科<br/>
+                排队人数：<span class="red" id="t6">10</span>
+
+                <div class="right">
+                    <div class="btns">
+                        <a href="javascript:void(0);" class="btn" onclick="goMyqueue(6);">去排队</a>
+                    </div>
+                </div>
+            </div>
+            <div class="top top-other" style="border-top:none;">
+                骨科<br/>
+                排队人数：<span class="red" id="t8">30</span>
+
+                <div class="right">
+                    <div class="btns">
+                        <a href="javascript:void(0);" class="btn" onclick="goMyqueue(8);">去排队</a>
+                    </div>
+                </div>
+            </div>
+            <div class="top top-other" style="border-top:none;">
+                耳鼻喉科<br/>
+                排队人数：<span class="red" id="t10">10</span>
+
+                <div class="right">
+                    <div class="btns">
+                        <a href="javascript:void(0);" class="btn" onclick="goMyqueue(10);">去排队</a>
+                    </div>
+                </div>
+            </div>
+
+        </li>
+    </ul>
+    <!--/order-list-->
+
+</div>
+<!--/wrap-->
+
+</body>
+</html>

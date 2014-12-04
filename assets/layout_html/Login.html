@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
+    <meta name="format-detection" content="telephone=no" />
+    <title>登录</title>
+    <link rel="stylesheet" href="packed/css/mobile.css" />
+	<script src="packed/js/beacon.js?jquery&easing&slider&packed" type="text/javascript"></script>
+	<script type="text/javascript">
+		function login(){
+			var str=window.location.href;
+			window.location.href=str.split('=')[1];
+		}
+	</script>
+</head>
+
+<body>
+<div class="wrap" style="margin-top:20px">
+	
+    <div class="form-box">
+    	<div class="row"><input type="text" placeholder="请输入用户名/手机号"/></div>
+    	<div class="row"><input type="password" placeholder="请输入密码"/></div>
+    	<div class="row">
+        	<input type="checkbox" id="remember" checked/><label for="remember">记住我</label>
+            <div class="right">
+            <a href="javascript:void(0);">忘记密码</a>
+            <a onclick="footToRegister();">免费注册</a>
+            </div>
+        </div>
+        <div class="row"><button type="submit" onclick="login();">登录</button></div>
+    </div><!--/form-box-->
+      
+</div><!--/wrap-->
+<!--foot start-->
+<div id="footer-bottom">
+    <div class="footer-menu">
+        <div class="left" id="foot_login_before">
+            <a style="cursor: pointer;" onclick="footToLogin();">登录</a> <span>|</span> <a style="cursor: pointer;" onclick="footToRegister();">注册</a>
+        </div>
+        <div class="right">
+            <a style="cursor: pointer;" href="javascript:scroll(0,0);">回到顶部</a>
+        </div>
+    </div>
+    <div class="footer-mode">
+        <a style="cursor: pointer;" class="current" href="javascript:void(0);">触屏版</a> 
+		<a style="cursor: pointer;" href="javascript:void(0);">电脑版</a>
+    </div>
+</div>
+<!--foot end-->
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
+    <meta name="format-detection" content="telephone=no" />
+    <title>首页</title>
+    <link rel="stylesheet" href="packed/css/mobile.css" />
+	<script src="packed/js/beacon.js?jquery&easing&slider&packed" type="text/javascript"></script>
+	<script type="text/javascript">
+		function gotoShoplist(){
+			window.home.gotoShoplist();
+		}
+		function gotoMyfile(){
+			window.home.gotoMyfile();
+		}
+		function gotoShoplist_cinema(){
+			window.home.gotoShoplist_cinema();
+		}
+		function gotoShoplist_hospital(){
+			window.home.gotoShoplist_hospital();
+		}
+		function test(str){
+			$("#test").html(str);
+		}
+	</script>
+</head>
+
+<body>
+
+<div class="wrap">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"> 
+                <img src="temp/001.jpg"/>
+            </div>
+            <div class="swiper-slide"> 
+                <img src="temp/002.jpg"/>
+            </div>
+            <div class="swiper-slide">
+                <img src="temp/003.jpg"/>
+            </div>
+			<div class="swiper-slide"> 
+                <img src="temp/004.jpg"/>
+            </div>
+            <div class="swiper-slide"> 
+                <img src="temp/005.jpg"/>
+            </div>
+            <div class="swiper-slide">
+                <img src="temp/006.jpg"/>
+            </div>
+        </div>
+    </div><!--/swiper-container-->
+    
+
+        <div class="search-apps">
+            <div class="apps">
+                <a class="item" onclick="gotoShoplist();">
+                    <div class="icon icon-1"></div>
+                </a>
+                <a href="javascript:void(0);" onclick="gotoShoplist_hospital();" class="item">
+                    <div class="icon icon-2"></div>
+                </a>
+                <a href="javascript:void(0);" onclick="gotoShoplist_cinema();"  class="item">
+                    <div class="icon icon-3"></div>
+                </a>
+                <a href="javascript:void(0);" class="item">
+                    <div class="icon icon-4"></div>
+                </a>
+                <a href="javascript:void(0);" class="item">
+                    <div class="icon icon-5"></div>
+                </a>
+                <a href="javascript:void(0);" class="item">
+                    <div class="icon icon-6"></div>
+                </a>
+                <a href="javascript:void(0);" class="item">
+                    <div class="icon icon-7"></div>
+                </a>
+                <a href="javascript:void(0);" class="item">
+                    <div class="icon icon-8"></div>
+                </a>
+            </div>
+        </div><!--/search-apps-->
+</div><!--/wrap-->
+
+    <div class="service-menu" id="footer-bottom">
+    	<div class="item"><a onclick="gotoMyfile();">个人中心</a></div>
+    	<div class="item"><a href="javascript:void(0);">积分商城</a></div>
+    	<div class="item"><a href="javascript:void(0);">意见反馈</a></div>
+    </div><!--/service-menu-->
+</body>
+</html>

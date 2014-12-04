@@ -1,0 +1,128 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
+    <meta name="format-detection" content="telephone=no" />
+    <title>商家列表</title>
+    <link rel="stylesheet" href="packed/css/mobile.css" />
+	<script src="packed/js/beacon.js?jquery&easing&slider&packed" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			t_hd();
+		});
+		function gotoRTComment(){
+			window.shoplist.gotoRTComment();
+		}
+    </script>
+</head>
+
+<body>
+<div class="wrap">
+	<div class="t_hd fixed">
+    	<div class="items">
+            <div class="item">
+                全部分类<i></i>
+            </div>
+            <div class="item">
+                智能排序<i></i>
+            </div>
+        </div>
+        <div class="popup" id="popup_1">
+        	<div class="popup_box">
+        	<div id="t_taba" class="t_notabs">
+                <ul>
+                    <li><a href="#t_taba_1">默认</a></li>
+                    <li><a href="#t_taba_2">火锅</a></li>
+                    <li><a href="#t_taba_3">川菜</a></li>
+                    <li><a href="#t_taba_4">西餐</a></li>
+                    <li><a href="#t_taba_7">更多</a></li>
+                </ul>
+            </div>
+            <div class="bottom"></div>
+            </div>
+        </div><!--/popup-->
+        <div class="popup" id="popup_2">
+        	<div class="popup_box">
+        	<div class="t_notabs">
+                <ul>
+                    <li><a href="#">离我最近</a></li>
+                    <li><a href="#">暂无排队</a></li>
+                    <li><a href="#">好评优先</a></li>
+                    <li><a href="#">活动优先</a></li>
+                </ul>
+            </div>
+            <div class="bottom"></div>
+            </div>
+        </div><!--/popup-->
+    </div>
+    
+    <ul class="normal-list tuan fixed_tuan">
+	    <li>
+        	<a onclick="gotoRTComment();">
+                <div class="info">
+                    <div class="inner">
+                        <h3>粗粮王</h3>
+                        <span class="away"> < 1Km</span>
+                        <p>伴您畅享德国纯正黑啤</p>
+                        <div class="field">人均:<strong class="red">￥48.00</strong><span>4.5分</span></div>
+                    </div>
+                </div>
+                <div class="photo"><img src="temp/culiangwang.jpg" style="width:70px;height:70px;"/></div>
+            </a>
+        </li>
+        <li>
+        	<a onclick="gotoRTComment();">
+                <div class="info">
+                    <div class="inner">
+                        <h3>御品轩</h3>
+                        <span class="away"> < 0.3Km</span>
+                        <p>地道的台湾蛋糕，常来还想再来</p>
+                        <div class="field">人均:<strong class="red">￥28.00</strong><span>4.9分</span></div>
+                    </div>
+                </div>
+                <div class="photo"><img src="temp/yupinxuan.jpg" style="width:70px;height:70px;"/></div>
+            </a>
+        </li>
+        <li>
+        	<a onclick="gotoRTComment();">
+                <div class="info">
+                    <div class="inner">
+                        <h3>黄记煌</h3>
+                        <span class="away"> < 0.5Km</span>
+                        <p>皇上钦点：焖锅就到黄记煌</p>
+                        <div class="field">人均:<strong class="red">￥60.00</strong><span>4.9分</span></div>
+                    </div>
+                </div>
+                <div class="photo"><img src="temp/huanjihuang.jpg" style="width:70px;height:70px;"/></div>
+            </a>
+        </li>
+        <li>
+        	<a onclick="gotoRTComment();">
+                <div class="info">
+                    <div class="inner">
+                        <h3>杨翔豆皮</h3>
+                        <span class="away"> < 0.5Km</span>
+                        <p>给你不一样的美味瞬间</p>
+                        <div class="field">人均:<strong class="red">￥30.00</strong><span>4.7分</span></div>
+                    </div>
+                </div>
+                <div class="photo"><img src="temp/yangxiang.jpg" style="width:70px;height:70px;"/></div>
+            </a>
+        </li>
+        <li>
+        	<a onclick="gotoRTComment();">
+                <div class="info">
+                    <div class="inner">
+                        <h3>苏福记</h3>
+                        <span class="away"> < 2Km</span>
+                        <p>最实惠的米饭炒菜等着你来</p>
+                        <div class="field">人均:<strong class="red">￥40.00</strong><span>4.0分</span></div>
+                    </div>
+                </div>
+                <div class="photo"><img src="temp/sufuji.jpg" style="width:70px;height:70px;"/></div>
+            </a>
+        </li>
+    </ul><!--/normal-list-->
+        
+</div><!--/wrap-->
+</body>
